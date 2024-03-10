@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    width: auto;
+    transition: all 500ms linear;
+   
+}
+.wrap-menu{
+    position: fixed;
+    top: 0;
+    background-color: hsl(0, 4%, 23%);
+    width: 100%;
+    height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.p-style{
+    color: #ffff;
+    margin-right: 4vw;
+}
+.wrap-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 100%;
+    width: 100%;
+    padding-top: 20vh;
+}
+
+.wrap-img{
+    margin-bottom: 4vh;
+    opacity: 0.8;
+}
+
+
+
+.img-style{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.wrap-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+.catalogo{
+   gap: 2vh;
+   margin-top: 5px;
+   text-align: center;
+   
+}
+
+.produto{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20%;
+}
+.produto2{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20%;
+}
+
+.info{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(91, 90, 90);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    gap: 50px;
+}
+.leftDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+.informations{
+    font-size: 25px;
+}
